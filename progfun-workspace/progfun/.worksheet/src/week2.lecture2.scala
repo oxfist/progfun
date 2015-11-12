@@ -15,7 +15,4 @@ object lecture2 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport
   fact(3);System.out.println("""res2: Int = """ + $show(res$2));$skip(10); val res$3 = 
   fact(4);System.out.println("""res3: Int = """ + $show(res$3));$skip(11); val res$4 = 
   fact(10);System.out.println("""res4: Int = """ + $show(res$4))}
-  
-  
-  	
 }
