@@ -5,5 +5,9 @@ object ListLength {
     else
       listLength(list.tail) + 1
 
-  def listLengthTR(list: List[Int], 
+  def listLengthTR(list: List[Int], accum: Int): Int =
+    if (list.isEmpty)
+      accum
+    else
+      listLengthTR(list.tail, accum + 1)
 }
